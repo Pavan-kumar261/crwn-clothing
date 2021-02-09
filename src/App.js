@@ -39,6 +39,7 @@ class App extends React.Component {
     this.unsubscribeFromAuth();
   }
 
+  // Route by default gives us three objects as props of the page we are in: match, location, history
   render() {
     return (
       <div>
